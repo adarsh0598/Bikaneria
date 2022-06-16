@@ -7,7 +7,7 @@ const products = [
         brand: 'sweets',
         category: 'food',
         price: 10.05,
-        countInStock: 3,
+        countInStock: 0,
         rating: 4.5,
         numReviews: 4,
     },
