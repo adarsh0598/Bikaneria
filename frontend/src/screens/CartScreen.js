@@ -177,7 +177,7 @@ const CartScreen = ({ match, location1, history }) => {
   };
 
   const checkoutHandler = () => {
-    navigate("/login?redirect=shipping");
+    navigate("/login?redirect=/shipping");
   };
 
   return (
