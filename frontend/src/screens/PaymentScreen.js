@@ -10,7 +10,7 @@ const PaymentScreen = () => {
   const cart = useSelector((state) => state.cart);
   const { shippingAddress } = cart;
   const navigate = useNavigate();
-  if (!shippingAddress) {
+  if (!shippingAddress.address) {
     navigate("/shipping");
   }
 
